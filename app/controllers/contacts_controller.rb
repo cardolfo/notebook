@@ -1,5 +1,6 @@
 class ContactsController < ApplicationController
   before_action :set_contact, only: [:show, :edit, :update, :destroy]
+  before_action :kinds_options_for_select, only: [:edit, :new]
 
   # GET /contacts
   # GET /contacts.json
@@ -18,7 +19,7 @@ class ContactsController < ApplicationController
   end
 
   # GET /contacts/1/edit
-  def edit
+  def edit    
   end
 
   # POST /contacts
@@ -70,5 +71,9 @@ class ContactsController < ApplicationController
     # Never trust parameters from the scary internet, only allow the white list through.
     def contact_params
       params.require(:contact).permit(:name, :email, :kind_id, :rmk)
+    end
+
+    def kinds_options_for_select
+      @kind_options_for_select = Kind.all
     end
 end
