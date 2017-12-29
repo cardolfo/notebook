@@ -22,7 +22,7 @@ ActiveRecord::Schema.define(version: 20171208141921) do
     t.datetime "updated_at", null: false
   end
 
-  add_index "addresses", ["contact_id"], name: "index_addresses_on_contact_id"
+  add_index "addresses", ["contact_id"], name: "index_addresses_on_contact_id", unique: true
 
   create_table "contacts", force: :cascade do |t|
     t.string   "name"
