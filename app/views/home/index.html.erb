@@ -1,6 +1,10 @@
 <h1>Seja Bem Vindo</h1>
 
-<%= mostrar_meu_nome %>
+<h2> <%= t 'hello.friend' %> </h2>
+
+<h2> <%= t 'hi' %> <%= mostrar_meu_nome %> </h2>
+
+<h2> <%= l Date.today %> </h2>
 
 <ul>
     <li><%= link_to "Tipos", kinds_path %></li>
