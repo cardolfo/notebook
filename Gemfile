@@ -37,6 +37,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # A library for generating fake data such as names, addresses, and phone numbers. 
 gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 
+# O Lero-lero Generator é uma ferramenta capaz de gerar frases que 'falam' muita coisa mas que não tem conteúdo algum. 
+gem 'lerolero_generator'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
