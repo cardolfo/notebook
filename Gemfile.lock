@@ -183,11 +183,8 @@ DEPENDENCIES
   faker!
   jbuilder (~> 2.0)
   jquery-rails
-<<<<<<< HEAD
   pry-rails
-=======
   lerolero_generator
->>>>>>> 13b947c53c69995cc91125315503e6cc20e26c7d
   rails (= 4.2.5)
   rails-i18n!
   sass-rails (~> 5.0)
