@@ -17,4 +17,5 @@
         street: "Rua"
         city: "Cidade"
         state: "Estado"
-      
+      phone:
+        phone: "Telefone"

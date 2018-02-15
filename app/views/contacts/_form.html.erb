@@ -40,7 +40,14 @@
         <%= address_fields.label :state %> 
         <%= address_fields.select :state, options_for_states(@contact.address.state) %> <br/>
       </div>  
-    <% end %>   
+    <% end %> 
+    
+    <%= f.fields_for :phones do |phone_fields| %>
+      <div class="field">
+        <%= phone_fields.label :phone %> 
+        <%= phone_fields.text_field :phone %> <br/>
+      </div>        
+    <% end %>
 
   <div class="field">
     <%= f.label :rmk %><br>
