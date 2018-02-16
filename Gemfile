@@ -40,6 +40,9 @@ gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 # O Lero-lero Generator é uma ferramenta capaz de gerar frases que 'falam' muita coisa mas que não tem conteúdo algum. 
 gem 'lerolero_generator'
 
+# Dynamic nested forms using jQuery made easy; works with formtastic, simple_form or default forms http://github.com/nathanvda/cocoon
+gem 'cocoon'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'

@@ -9,13 +9,13 @@
         other: Endereços
     attributes:
       contact:
-        name: "Nome"
-        email: "E-mail"
-        kind_id: "Tipo de Contato"
+        name: Nome
+        email: E-mail
+        kind_id: Tipo de Contato
         rmk: "Observações"          
       address:
-        street: "Rua"
-        city: "Cidade"
-        state: "Estado"
+        street: Rua
+        city: Cidade
+        state: Estado
       phone:
-        phone: "Telefone"
+        phone: Telefone
