@@ -21,7 +21,7 @@
   <div class="field">
     <%= f.label :email %><br>
     <%= f.text_field :email %>
-  </div>
+  </bin/bash --login
   <div class="field">
     <%= f.label :kind_id %><br>
     <%= f.collection_select :kind_id, @kind_options_for_select, :id, :description%>
@@ -48,6 +48,7 @@
       <% end %>
       <%= link_to_add_association('[Adicionar Telefone]', f, :phones) %>
     </div>
+    
     
 
   <div class="field">
