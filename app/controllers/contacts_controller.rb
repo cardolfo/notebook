@@ -1,6 +1,8 @@
 class ContactsController < ApplicationController
+
+  #Filters
   before_action :set_contact, only: [:show, :edit, :update, :destroy]
-  before_action :kinds_options_for_select, only: [:edit, :new]
+  before_action :kinds_options_for_select, only: [:edit, :new, :create]
 
   # GET /contacts
   # GET /contacts.json

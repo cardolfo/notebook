@@ -46,6 +46,9 @@ gem 'cocoon'
 # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Ruby webapps
 gem 'kaminari'
 
+# 
+gem 'kaminari-i18n'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
