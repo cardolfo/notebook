@@ -10,7 +10,7 @@ namespace :utils do
 
   def add_contacts
     puts "Adding contacts..."
-    10.times do |i|
+    100.times do |i|
         Contact.create! name: Faker::Name.name, 
                         email: Faker::Internet.email,
                         kind: Kind.all.sample, 
