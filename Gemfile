@@ -49,6 +49,9 @@ gem 'kaminari'
 # 
 gem 'kaminari-i18n'
 
+#Bundler-like DSL + rake tasks for Bower on Rails
+gem "bower-rails"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
