@@ -49,8 +49,12 @@ gem 'kaminari'
 # 
 gem 'kaminari-i18n'
 
-#Bundler-like DSL + rake tasks for Bower on Rails
-gem "bower-rails"
+# Rails Assets is the frictionless proxy between Bundler and Bower.
+gem 'bundler', '>= 1.8.4'
+source 'https://rails-assets.org' do
+  #A simple, versatile notification library
+  gem 'rails-assets-notifyjs'
+end
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
