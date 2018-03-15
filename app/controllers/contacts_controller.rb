@@ -1,5 +1,7 @@
 class ContactsController < ApplicationController
 
+  http_basic_authenticate_with name: "nilo", password: "nilando", only: :destroy
+
   #Filters
   before_action :set_contact, only: [:show, :edit, :update, :destroy]
   before_action :kinds_options_for_select, only: [:edit, :new, :create]
